@@ -60,4 +60,8 @@ gem "simple_form", "~> 5.1"
 
 gem "kaminari", "~> 1.2"
 
-gem 'pg', '~> 1.2', '>= 1.2.3', group: :production
+group :production do 
+
+gem 'pg', '~> 1.2', '>= 1.2.3'
+
+end
