@@ -70,3 +70,6 @@ group :production do
   gem 'pg'
 
 end
+gem "devise", "~> 4.8"
+
+gem "letter_opener", "~> 1.7"
